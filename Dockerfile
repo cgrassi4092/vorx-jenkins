@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install python3-pip -y && \
 
 # Install Docker
 RUN apt-get update && \
-apt-get -y install apt-tra:nsport-https \
+apt-get -y install apt-transport-https \
      ca-certificates \
      wget \
      curl \
